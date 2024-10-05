@@ -1,0 +1,257 @@
+/* Styles for the Football Club Management App */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.app-title {
+    text-align: center;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+    font-size: 3.5em;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #1a1a1a;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#searchPlayerInput {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1.2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#players {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.player-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.player-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.player-info {
+    position: relative;
+}
+
+.player-info img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.player-info img:hover {
+    transform: scale(1.1);
+}
+
+.player-details {
+    padding: 20px;
+}
+
+.player-details h3 {
+    margin-top: 0;
+    color: #1a1a1a;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.player-details p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1em;
+}
+
+.player-details p span {
+    font-weight: 600;
+}
+
+.player-details p span.position {
+    color: #e91e63; /* Pink for Position */
+}
+
+.player-details p span.goals {
+    color: #4caf50; /* Green for Goals */
+}
+
+.player-details p span.assists {
+    color: #2196f3; /* Blue for Assists */
+}
+
+.player-details p span.yellow-cards {
+    color: #ffeb3b; /* Yellow for Yellow Cards */
+}
+
+.player-details p span.red-cards {
+    color: #f44336; /* Red for Red Cards */
+}
+
+.player-details p span.motm-count {
+    color: #9c27b0; /* Purple for MOTM Count */
+}
+
+.player-details p span.appearances {
+    color: #ff9800; /* Orange for Appearances */
+}
+
+.player-number-container {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.player-number {
+    font-size: 2.5em;
+}
+
+/* Overlay Styles */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 10;
+}
+
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.full-view-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.full-view-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.full-view-card h3 {
+    color: #1a1a1a;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.full-view-card p {
+    color: #555;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.full-view-card p span {
+    font-weight: 600;
+}
+
+.full-view-card p span.position {
+    color: #e91e63; /* Pink for Position */
+}
+
+.full-view-card p span.goals {
+    color: #4caf50; /* Green for Goals */
+}
+
+.full-view-card p span.assists {
+    color: #2196f3; /* Blue for Assists */
+}
+
+.full-view-card p span.yellow-cards {
+    color: #ffeb3b; /* Yellow for Yellow Cards */
+}
+
+.full-view-card p span.red-cards {
+    color: #f44336; /* Red for Red Cards */
+}
+
+.full-view-card p span.motm-count {
+    color: #9c27b0; /* Purple for MOTM Count */
+}
+
+.full-view-card p span.appearances {
+    color: #ff9800; /* Orange for Appearances */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    font-size: 1.5em;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.close-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}

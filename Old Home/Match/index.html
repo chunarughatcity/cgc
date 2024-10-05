@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Results</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Match Results</h1>
+        </header>
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Search by opponent name" oninput="searchMatches()">
+            <select id="resultFilter" onchange="searchMatches()">
+                <option value="all">All Results</option>
+                <option value="won">Won</option>
+                <option value="lost">Lost</option>
+                <option value="draw">Draw</option>
+            </select>
+        </div>
+        <div id="matchStats"></div> <!-- Match stats section -->
+        <div id="matches"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

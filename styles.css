@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0f0f; /* Dark background for a futuristic look */
+    color: #e0e0e0; /* Light text color for contrast */
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #003366, #0066cc); /* Modern blue gradient */
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border: 3px solid #ffffff;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header-text p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #000000, #333333); /* Futuristic dark gradient */
+}
+
+#hero .hero-content p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+#hero .btn-learn-more {
+    background-color: #00ccff; /* Bright, eye-catching color */
+    color: #1a1a1a;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn-learn-more:hover {
+    background-color: #0099cc;
+}
+
+#intro-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.intro-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow to the image */
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: #222; /* Dark background for the features section */
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    color: #ffffff;
+}
+
+.feature-icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.interactive-matches {
+    background: linear-gradient(135deg, #28a745, #dc3545); /* Green to red gradient */
+}
+
+.advanced-analytics {
+    background: linear-gradient(135deg, #28a745, #dc3545); /* Green to red gradient */
+}
+
+.video-highlights {
+    background: linear-gradient(135deg, #007bff, #6610f2); /* Blue to purple gradient */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+}
+
+/* Media Queries for Smaller Devices */
+@media (max-width: 768px) {
+    .header-text {
+        text-align: center;
+        font-size: 0.9em; /* Smaller font size on mobile */
+    }
+
+    .header-text h1 {
+        font-size: 1.8em; /* Smaller title size on mobile */
+    }
+
+    .header-text p {
+        font-size: 1em; /* Smaller welcome text size on mobile */
+    }
+
+    #hero .hero-content p {
+        font-size: 1em;
+    }
+
+    #features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    footer p {
+        font-size: 0.8em;
+    }
+}
