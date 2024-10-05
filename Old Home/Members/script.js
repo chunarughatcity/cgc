@@ -162,9 +162,10 @@ let members = [
     { id: 143, name: "143. MD SHAJAN", profilePicture: "SHAJAN.jpg", number: "12" },
     { id: 144, name: "144. AZHARUL ISLAM NABIL", profilePicture: "AZHARUL ISLAM NABIL.jpg", number: "10" },
     { id: 145, name: "145. JAHIDUL ISLAM LEAN", profilePicture: "JAHIDUL ISLAM LEAN.jpg", number: "15" },
-    { id: 146, name: "146. AFFAN ABU OSMAN", profilePicture: "AFFAN.jpg", number: "8" },
+    { id: 146, name: "146. TANVIR HASAN SUHAN", profilePicture: "SUHAN.jpg", number: "8" },
     { id: 147, name: "147. SAJIDUL ISLAM SAJID", profilePicture: "SAJIDUL ISLAM SAJID.jpg", number: "10" },
     { id: 148, name: "148. NASEER AHMED TAMIM", profilePicture: "TAMIM.jpg", number: "10" },
+    { id: 149, name: "149. AFFAN ABU OSMAN", profilePicture: "AFFAN.jpg", number: "8" },
 
 ];
 
