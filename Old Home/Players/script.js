@@ -2,7 +2,7 @@ let players = [
     {
         id: 1,
         name: 'SABBIR',
-        profilePicture: 'SABBIR.JPG', // Update with actual path
+        profilePicture: 'SABBIR.jpg', // Update with actual path
         goals: 8,
         assists: 2,
         yellowCards: 0,
