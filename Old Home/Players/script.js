@@ -3,7 +3,7 @@ let players = [
         id: 1,
         name: 'SABBIR',
         profilePicture: 'SABBIR.jpg', // Update with actual path
-        goals: 9,
+        goals: 8,
         assists: 2,
         yellowCards: 0,
         redCards: 0,
