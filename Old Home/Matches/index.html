@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches Results</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hamburger Menu Icon -->
+    <div class="hamburger-menu" onclick="toggleMenu()">  
+        <div class="line"></div>    
+        <div class="line"></div>    
+        <div class="line"></div>
+    </div>
+
+    <!-- Quick Access Menu -->
+    <div class="quick-access-menu" id="quickAccessMenu">   
+        <a href="../Old Home.html" class="menu-item">Home</a>    
+        <a href="../Members/index.html" class="menu-item">Members</a>    
+        <a href="../Players/index.html" class="menu-item">Players</a>    
+        <a href="../Photos/index.html" class="menu-item">Photos</a>    
+        <a href="../Videos/index.html" class="menu-item">Videos</a>    
+        <a href="../eSports/index.html" class="menu-item">eSports</a>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Matches</h1>
+        </header>
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Search by opponent name" oninput="searchMatches()">
+            <select id="resultFilter" onchange="searchMatches()">
+                <option value="all">All Results</option>
+                <option value="won">Won</option>
+                <option value="lost">Lost</option>
+                <option value="draw">Draw</option>
+            </select>
+        </div>
+        <div id="matchStats"></div> <!-- Match stats section -->
+        <div id="matches"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
