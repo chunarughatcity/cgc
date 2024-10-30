@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     newPageBtn2.addEventListener('click', function() {
-        window.location.href = 'Match/index.html';
+        window.location.href = 'Matches/index.html';
     });
 
     newPageBtn3.addEventListener('click', function() {
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     newPageBtn5.addEventListener('click', function() {
-        window.location.href = 'Sports/index.html';
+        window.location.href = 'eSports/index.html';
     });
 
     bannerInput.addEventListener('change', function() {
