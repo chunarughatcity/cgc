@@ -3,12 +3,12 @@ let players = [
         id: 1,
         name: 'SABBIR',
         profilePicture: 'SABBIR.jpg', // Update with actual path
-        goals: 8,
-        assists: 2,
+        goals: 9,
+        assists: 3,
         yellowCards: 0,
         redCards: 0,
-        motmCount: 3,
-        appearances: 15,
+        motmCount: 4,
+        appearances: 18,
         position: 'Attaking Midfielder',
         playerNumber: 1
     },
@@ -21,7 +21,7 @@ let players = [
         yellowCards: 0,
         redCards: 0,
         motmCount: 1,
-        appearances: 13,
+        appearances: 15,
         position: 'Attaking Midfielder',
         playerNumber: 2
     },
@@ -29,12 +29,12 @@ let players = [
         id: 3,
         name: 'JOY',
         profilePicture: 'JOY.jpg', // Update with actual path
-        goals: 6,
+        goals: 7,
         assists: 1,
         yellowCards: 0,
         redCards: 0,
         motmCount: 2,
-        appearances: 11,
+        appearances: 13,
         position: 'Center Forward',
         playerNumber: 3
     },
@@ -43,11 +43,11 @@ let players = [
         name: 'RAJU',
         profilePicture: 'RAJU.jpg', // Update with actual path
         goals: 4,
-        assists: 2,
+        assists: 3,
         yellowCards: 0,
         redCards: 0,
         motmCount: 1,
-        appearances: 14,
+        appearances: 17,
         position: 'Left Winger',
         playerNumber: 4
     },
@@ -60,7 +60,7 @@ let players = [
         yellowCards: 0,
         redCards: 0,
         motmCount: 1,
-        appearances: 9,
+        appearances: 10,
         position: 'Center Midfielder',
         playerNumber: 5
     },
@@ -120,12 +120,12 @@ let players = [
         id: 10,
         name: 'AFFAN',
         profilePicture: 'AFFAN.jpg', // Update with actual path
-        goals: 2,
-        assists: 2,
+        goals: 3,
+        assists: 3,
         yellowCards: 0,
         redCards: 0,
         motmCount: 1,
-        appearances: 6,
+        appearances: 7,
         position: 'Striker',
         playerNumber: 10
     },
@@ -138,7 +138,7 @@ let players = [
         yellowCards: 0,
         redCards: 0,
         motmCount: 0,
-        appearances: 8,
+        appearances: 10,
         position: 'GoalKeeper',
         playerNumber: 11
     },
@@ -177,7 +177,7 @@ let players = [
         yellowCards: 0,
         redCards: 0,
         motmCount: 0,
-        appearances: 3,
+        appearances: 6,
         position: 'Defender',
         playerNumber: 14
     },
@@ -315,12 +315,12 @@ let players = [
         id: 25,
         name: 'SHUVO',
         profilePicture: 'path/to/player3.jpg', // Update with actual path
-        goals: 0,
+        goals: 3,
         assists: 0,
         yellowCards: 0,
         redCards: 0,
-        motmCount: 0,
-        appearances: 2,
+        motmCount: 1,
+        appearances: 3,
         position: 'Right Winger',
         playerNumber: 25
     },
@@ -372,7 +372,7 @@ let players = [
         yellowCards: 0,
         redCards: 0,
         motmCount: 0,
-        appearances: 0,
+        appearances: 1,
         position: 'Defender',
         playerNumber: 29
     },
@@ -450,7 +450,7 @@ let players = [
         yellowCards: 0,
         redCards: 0,
         motmCount: 0,
-        appearances: 8,
+        appearances: 9,
         position: 'Defender',
         playerNumber: 35
     },
@@ -463,7 +463,7 @@ let players = [
         yellowCards: 0,
         redCards: 0,
         motmCount: 0,
-        appearances: 8,
+        appearances: 9,
         position: 'Midfielder',
         playerNumber: 36
     },
@@ -489,7 +489,7 @@ let players = [
         yellowCards: 0,
         redCards: 0,
         motmCount: 0,
-        appearances: 6,
+        appearances: 7,
         position: 'Defender',
         playerNumber: 38
     },
@@ -515,7 +515,7 @@ let players = [
         yellowCards: 0,
         redCards: 0,
         motmCount: 0,
-        appearances: 3,
+        appearances: 4,
         position: 'Defender',
         playerNumber: 40
     },
@@ -524,11 +524,11 @@ let players = [
         name: 'JAKARIYA',
         profilePicture: 'JAKARIYA.JPG', // Update with actual path
         goals: 1,
-        assists: 1,
+        assists: 2,
         yellowCards: 0,
         redCards: 0,
         motmCount: 0,
-        appearances: 10,
+        appearances: 13,
         position: 'Midfielder',
         playerNumber: 41
     },
@@ -559,6 +559,62 @@ let players = [
         position: 'Goalkeeper',
         playerNumber: 43
     },
+
+        {
+        id: 44,
+        name: 'NAJID',
+        profilePicture: 'NAJID.JPG', // Update with actual path
+        goals: 0,
+        assists: 0,
+        yellowCards: 0,
+        redCards: 0,
+        motmCount: 0,
+        appearances: 1,
+        position: 'Center Forward',
+        playerNumber: 44
+    },
+ 
+        {
+        id: 45,
+        name: 'JANEL',
+        profilePicture: 'JANEL.JPG', // Update with actual path
+        goals: 0,
+        assists: 0,
+        yellowCards: 0,
+        redCards: 0,
+        mot        mCount: 0,
+        appearances: 1,
+        position: 'Defender',
+        playerNumber: 45
+    },
+            {
+        id: 46,
+        name: 'ASHIK',
+        profilePicture: 'ASHIK.JPG', // Update with actual path
+        goals: 0,
+        assists: 0,
+        yellowCards: 0,
+        redCards: 0,
+        mot        mCount: 0,
+        appearances: 1,
+        position: 'Defender',
+        playerNumber: 46
+    },
+            {
+        id: 47,
+        name: 'SHAHIN',
+        profilePicture: 'SHAHIN.JPG', // Update with actual path
+        goals: 0,
+        assists: 0,
+        yellowCards: 0,
+        redCards: 0,
+        mot        mCount: 0,
+        appearances: 1,
+        position: 'Defender',
+        playerNumber: 47
+    },
+
+
 ];
 
 // Function to display players
