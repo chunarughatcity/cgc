@@ -545,7 +545,6 @@ let players = [
         position: 'Defender',
         playerNumber: 42
     },
-
     {
         id: 43,
         name: 'ANTOR',
@@ -559,8 +558,7 @@ let players = [
         position: 'Goalkeeper',
         playerNumber: 43
     },
-
-        {
+     {
         id: 44,
         name: 'NAJID',
         profilePicture: 'NAJID.JPG', // Update with actual path
@@ -573,8 +571,7 @@ let players = [
         position: 'Center Forward',
         playerNumber: 44
     },
- 
-        {
+     {
         id: 45,
         name: 'JANEL',
         profilePicture: 'JANEL.JPG', // Update with actual path
@@ -587,7 +584,7 @@ let players = [
         position: 'Defender',
         playerNumber: 45
     },
-            {
+     {
         id: 46,
         name: 'ASHIK',
         profilePicture: 'ASHIK.JPG', // Update with actual path
@@ -600,7 +597,7 @@ let players = [
         position: 'Defender',
         playerNumber: 46
     },
-            {
+     {
         id: 47,
         name: 'SHAHIN',
         profilePicture: 'SHAHIN.JPG', // Update with actual path
@@ -613,8 +610,6 @@ let players = [
         position: 'Defender',
         playerNumber: 47
     },
-
-
 ];
 
 // Function to display players
