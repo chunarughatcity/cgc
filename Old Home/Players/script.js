@@ -558,6 +558,58 @@ let players = [
         position: 'Goalkeeper',
         playerNumber: 43
     },
+    {
+        id: 44,
+        name: 'NAJID',
+        profilePicture: 'NAJID.JPG', // Update with actual path
+        goals: 0,
+        assists: 0,
+        yellowCards: 0,
+        redCards: 0,
+        motmCount: 0,
+        appearances: 1,
+        position: 'Center Forward',
+        playerNumber: 44
+    },
+    {
+        id: 45,
+        name: 'JANEL',
+        profilePicture: 'JANEL.JPG', // Update with actual path
+        goals: 0,
+        assists: 0,
+        yellowCards: 0,
+        redCards: 0,
+        motmCount: 0,
+        appearances: 1,
+        position: 'Defender',
+        playerNumber: 45
+    },
+    {
+        id: 46,
+        name: 'SHAHIN',
+        profilePicture: 'SHAHIN.JPG', // Update with actual path
+        goals: 0,
+        assists: 0,
+        yellowCards: 0,
+        redCards: 0,
+        motmCount: 0,
+        appearances: 1,
+        position: 'Defender',
+        playerNumber: 46
+    },
+    {
+        id: 47,
+        name: 'ASHIK',
+        profilePicture: 'ASHIK.JPG', // Update with actual path
+        goals: 0,
+        assists: 0,
+        yellowCards: 0,
+        redCards: 0,
+        motmCount: 0,
+        appearances: 1,
+        position: 'Defender',
+        playerNumber: 47
+    },    
 ];
 
 // Function to display players
