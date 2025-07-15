@@ -859,7 +859,7 @@ const players = [
   },
    {
     name: "SUHAG",
-    number: 1,
+    number: 23,
     category: "goalkeepers",
     image: "images/alisson.jpg",
     video: "https://www.youtube.com/embed/_PVRnKrcy3k",
