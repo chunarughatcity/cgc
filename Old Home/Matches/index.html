@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Season Matches</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>S2 Matches</h1>
+
+    <div class="controls">
+      <button onclick="window.location.href='season1/index.html'">Season 1</button>
+      <button onclick="showSeason(2)">Season 2</button>
+
+      <input type="text" id="searchInput" placeholder="Search opponent..." oninput="filterMatches()"/>
+      <select id="resultFilter" onchange="filterMatches()">
+        <option value="all">All</option>
+        <option value="won">Won</option>
+        <option value="lost">Lost</option>
+        <option value="draw">Draw</option>
+      </select>
+    </div>
+
+    <div id="stats"></div>
+    <div id="matchList"></div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Preview">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

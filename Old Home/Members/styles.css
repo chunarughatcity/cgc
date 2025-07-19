@@ -1,0 +1,222 @@
+:root {
+    --background-color: #8B0000; /* Dark Red background color */
+    --text-color: #ffffff; /* White text color for better contrast */
+    --header-background: #000; /* Black background */
+    --header-color: #ffffff; /* White title color */
+    --border-color: #ccc;
+    --button-bg: #00aaff;
+    --button-hover-bg: #0088cc;
+    --card-background: #fff;
+    --accent-color: #00aaff;
+    --shadow-color: rgba(0, 0, 0, 0.3); /* Darker shadow for better contrast */
+    --highlight-color: #00e6e6;
+    --dark-blue: #2c3e50;
+    --light-gray: #ecf0f1;
+    --card-border: #dcdcdc;
+    --blue-color: #000000; /* Black color */
+    --font-family: 'Roboto', sans-serif; /* High-quality font */
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.page-container {
+    background-color: var(--background-color);
+    padding: 40px; /* Increased padding for better spacing */
+    min-height: 100vh;
+    position: relative;
+    color: var(--text-color);
+}
+
+header {
+    text-align: center;
+    background: var(--header-background); /* Background color for title */
+    padding: 40px; /* Increased padding */
+    border-radius: 12px; /* Slightly more rounded */
+    margin-bottom: 40px; /* Increased margin */
+    box-shadow: 0 4px 8px var(--shadow-color); /* Larger shadow */
+}
+
+header h1 {
+    margin: 0;
+    color: var(--header-color); /* White title color */
+    font-size: 4em; /* Larger font size for 4K display */
+    font-weight: 700;
+}
+
+main {
+    text-align: center;
+}
+
+#searchMember {
+    padding: 15px; /* Larger padding */
+    border-radius: 8px; /* More rounded corners */
+    border: 1px solid var(--border-color);
+    width: 100%;
+    max-width: 800px; /* Wider search bar */
+    margin: 40px auto; /* Larger margin */
+    background: var(--card-background);
+    color: var(--text-color); /* White text color */
+    box-shadow: 0 4px 8px var(--shadow-color); /* Larger shadow */
+    background-color: #000; /* Black background color */
+}
+
+#searchMember::placeholder {
+    color: var(--text-color); /* White placeholder text color */
+}
+
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Larger gap */
+    justify-content: center;
+}
+
+.member-card {
+    position: relative;
+    background: var(--card-background);
+    width: 350px; /* Increased width */
+    border: 1px solid var(--card-border);
+    border-radius: 20px; /* More rounded corners */
+    box-shadow: 0 8px 16px var(--shadow-color); /* Larger shadow */
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+    transform: scale(1.08); /* Slightly larger scale */
+    box-shadow: 0 12px 24px var(--shadow-color); /* Larger shadow on hover */
+}
+
+.member-info img {
+    border-radius: 50%;
+    width: 200px; /* Larger image */
+    height: 200px; /* Larger image */
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.member-details {
+    padding: 20px; /* Increased padding */
+    background-color: var(--blue-color); /* Changed to black */
+    color: #fff;
+}
+
+.member-details h3 {
+    margin: 10px 0;
+    font-size: 2em; /* Larger font size */
+    font-weight: 600;
+}
+
+.member-details p {
+    margin: 0;
+    font-size: 1.2em; /* Slightly larger font size */
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+/* Style for the Hamburger Menu */
+.hamburger-menu {
+    position: fixed;    
+    top: 10px;    
+    right: 10px;    
+    width: 30px;    
+    height: 30px;    
+    display: flex;    
+    flex-direction: column;    
+    justify-content: space-between;    
+    cursor: pointer;    
+    z-index: 1000;
+}
+
+.hamburger-menu .line {
+    width: 100%;    
+    height: 4px;    
+    background-color: #ff6347; /* Tomato color */
+    border-radius: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+/* Transform for active state */
+.hamburger-menu.active .line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger-menu.active .line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.active .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+/* Style for the Hidden Quick Access Menu */
+.quick-access-menu {
+    display: none;    
+    position: fixed;    
+    top: 50px;    
+    right: 10px;    
+    background-color: rgba(0, 0, 0, 0.9);    
+    padding: 20px;    
+    border-radius: 8px;    
+    z-index: 999;    
+    flex-direction: column;    
+    gap: 10px;
+}
+
+/* Style for individual Menu Items with different colors */
+.quick-access-menu .menu-item:nth-child(1) {
+    background-color: #ff4500; /* OrangeRed */
+}
+
+.quick-access-menu .menu-item:nth-child(2) { /* Members */
+    background-color: #FF1493;
+}
+
+.quick-access-menu .menu-item:nth-child(3) { /* Players */
+    background-color: #1E90FF;
+}
+
+.quick-access-menu .menu-item:nth-child(4) { /* Matches */
+    background-color: #32CD32;
+}
+
+.quick-access-menu .menu-item:nth-child(5) { /* Photos */
+    background-color: #FF8C00;
+}
+
+.quick-access-menu .menu-item:nth-child(6) { /* Videos */
+    background-color: #9400D3;
+}
+
+.quick-access-menu .menu-item:nth-child(7) { /* eSports */
+    background-color: #00CED1;
+}
+
+.quick-access-menu .menu-item {
+    color: white;    
+    text-decoration: none;    
+    padding: 10px;    
+    border-radius: 4px;    
+    transition: background-color 0.3s;
+}
+
+.quick-access-menu .menu-item:hover {
+    opacity: 0.8;
+}
+
+/* Show Menu When Active */
+.quick-access-menu.active {
+    display: flex;
+}
