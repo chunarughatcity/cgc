@@ -13,7 +13,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 1,
+    Appearances: 2,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -53,7 +53,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 7,
+    Appearances: 8,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -73,7 +73,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 6,
+    Appearances: 7,
     Goals: 0,
     Assists: 1,
     Interceptions: 0,
@@ -113,7 +113,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 10,
+    Appearances: 11,
     Goals: 1,
     Assists: 2,
     Interceptions: 0,
@@ -257,7 +257,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 48,
+    Appearances: 49,
     Goals: 38,
     Assists: 14,
     Interceptions: 0,
@@ -278,7 +278,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF2',
   stats: {
     Position: 'Forward',
-    Appearances: 35,
+    Appearances: 36,
     Goals: 6,
     Assists: 8,
     Interceptions: 0,
@@ -503,7 +503,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM1',
   stats: {
     Position: 'Midfielder',
-    Appearances: 7,
+    Appearances: 8,
     Goals: 3,
     Assists: 2,
     Interceptions: 0,
@@ -543,7 +543,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM1',
   stats: {
     Position: 'Midfielder',
-    Appearances: 34,
+    Appearances: 35,
     Goals: 4,
     Assists: 12,
     Interceptions: 0,
@@ -668,7 +668,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM3',
   stats: {
     Position: 'Midfielder',
-    Appearances: 27,
+    Appearances: 28,
     Goals: 6,
     Assists: 3,
     Interceptions: 0,
@@ -712,7 +712,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 3,
+    Appearances: 4,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -772,7 +772,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 12,
+    Appearances: 13,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -792,7 +792,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 9,
+    Appearances: 10,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -832,7 +832,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 10,
+    Appearances: 11,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -872,7 +872,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 6,
+    Appearances: 7,
     Goals: 1,
     Assists: 0,
     Interceptions: 0,
@@ -1038,7 +1038,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD3',
   stats: {
     Position: 'Defender',
-    Appearances: 21,
+    Appearances: 22,
     Goals: 0,
     Assists: 1,
     Interceptions: 0,
@@ -1273,7 +1273,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoG2',
   stats: {
     Position: 'Goalkeeper',
-    Appearances: 4,
+    Appearances: 5,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
