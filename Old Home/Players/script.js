@@ -1227,7 +1227,7 @@ playersData.push({
   stats: {
     Position: 'Defender',
     Appearances: 18,
-    Goals: 0,
+    Goals: 1,
     Assists: 2,
     Interceptions: 0,
     Blocked: 0,
