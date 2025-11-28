@@ -13,7 +13,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 2,
+    Appearances: 3,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -33,7 +33,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 2,
+    Appearances: 4,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -53,13 +53,13 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 8,
-    Goals: 0,
+    Appearances: 14,
+    Goals: 1,
     Assists: 0,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
-    'Yellow Cards': 0,
+    'Yellow Cards': 1,
     'Red Cards': 0,
     MOTM: 0
   }
@@ -73,15 +73,15 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 7,
-    Goals: 0,
-    Assists: 1,
+    Appearances: 16,
+    Goals: 3,
+    Assists: 2,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
-    'Yellow Cards': 0,
+    'Yellow Cards': 1,
     'Red Cards': 0,
-    MOTM: 0
+    MOTM: 1
   }
 });
 playersData.push({
@@ -113,8 +113,8 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 11,
-    Goals: 1,
+    Appearances: 21,
+    Goals: 3,
     Assists: 2,
     Interceptions: 0,
     Blocked: 0,
@@ -133,9 +133,9 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 6,
-    Goals: 4,
-    Assists: 0,
+    Appearances: 8,
+    Goals: 5,
+    Assists: 1,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
@@ -153,8 +153,8 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 6,
-    Goals: 4,
+    Appearances: 8,
+    Goals: 5,
     Assists: 2,
     Interceptions: 0,
     Blocked: 0,
@@ -257,15 +257,15 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF1',
   stats: {
     Position: 'Forward',
-    Appearances: 49,
-    Goals: 38,
-    Assists: 14,
+    Appearances: 64,
+    Goals: 49,
+    Assists: 19,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
     'Yellow Cards': 1,
     'Red Cards': 0,
-    MOTM: 11
+    MOTM: 14
   }
 });
 
@@ -278,8 +278,8 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF2',
   stats: {
     Position: 'Forward',
-    Appearances: 36,
-    Goals: 6,
+    Appearances: 40,
+    Goals: 7,
     Assists: 8,
     Interceptions: 0,
     Blocked: 0,
@@ -299,7 +299,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF3',
   stats: {
     Position: 'Forward',
-    Appearances: 17,
+    Appearances: 20,
     Goals: 7,
     Assists: 1,
     Interceptions: 0,
@@ -319,7 +319,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF3',
   stats: {
     Position: 'Forward',
-    Appearances: 38,
+    Appearances: 44,
     Goals: 6,
     Assists: 8,
     Interceptions: 0,
@@ -359,8 +359,8 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoF3',
   stats: {
     Position: 'Forward',
-    Appearances: 14,
-    Goals: 4,
+    Appearances: 20,
+    Goals: 5,
     Assists: 4,
     Interceptions: 0,
     Blocked: 0,
@@ -391,6 +391,26 @@ playersData.push({
     MOTM: 0
   }
 });
+playersData.push({
+  season: 'career',
+  category: 'forwards',
+  name: 'MASUM',
+  number: 0,
+  photo: 'images/MASUM.jpg',
+  video: 'https://www.youtube.com/embed/videoF3',
+  stats: {
+    Position: 'Forward',
+    Appearances: 1,
+    Goals: 0,
+    Assists: 0,
+    Interceptions: 0,
+    Blocked: 0,
+    'Successful Tackle': 0,
+    'Yellow Cards': 0,
+    'Red Cards': 0,
+    MOTM: 0
+  }
+});
 // ==============================
 // ===== MIDFIELDER PLAYERS =====
 // ==============================
@@ -403,15 +423,15 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM1',
   stats: {
     Position: 'Midfielder',
-    Appearances: 3,
-    Goals: 0,
+    Appearances: 9,
+    Goals: 2,
     Assists: 1,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
     'Yellow Cards': 1,
     'Red Cards': 0,
-    MOTM: 0
+    MOTM: 2
   }
 });
 playersData.push({
@@ -443,8 +463,8 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM1',
   stats: {
     Position: 'Midfielder',
-    Appearances: 4,
-    Goals: 1,
+    Appearances: 12,
+    Goals: 4,
     Assists: 0,
     Interceptions: 0,
     Blocked: 0,
@@ -463,9 +483,9 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM1',
   stats: {
     Position: 'Midfielder',
-    Appearances: 5,
-    Goals: 1,
-    Assists: 1,
+    Appearances: 10,
+    Goals: 2,
+    Assists: 2,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
@@ -483,15 +503,15 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM1',
   stats: {
     Position: 'Midfielder',
-    Appearances: 8,
+    Appearances: 9,
     Goals: 2,
-    Assists: 3,
+    Assists: 5,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
     'Yellow Cards': 0,
     'Red Cards': 0,
-    MOTM: 0
+    MOTM: 1
   }
 });
 playersData.push({
@@ -499,13 +519,13 @@ playersData.push({
   category: 'midfielders',
   name: 'JAKARIA',
   number: 7,
-  photo: 'images/JAKARIA.jpg',
+  photo: 'images/.jpg',
   video: 'https://www.youtube.com/embed/videoM1',
   stats: {
     Position: 'Midfielder',
-    Appearances: 8,
-    Goals: 3,
-    Assists: 2,
+    Appearances: 18,
+    Goals: 5,
+    Assists: 3,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
@@ -523,7 +543,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM1',
   stats: {
     Position: 'Midfielder',
-    Appearances: 10,
+    Appearances: 11,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -543,9 +563,9 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM1',
   stats: {
     Position: 'Midfielder',
-    Appearances: 35,
-    Goals: 4,
-    Assists: 12,
+    Appearances: 42,
+    Goals: 5,
+    Assists: 14,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
@@ -584,7 +604,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM2',
   stats: {
     Position: 'Midfielder',
-    Appearances: 5,
+    Appearances: 7,
     Goals: 2,
     Assists: 0,
     Interceptions: 0,
@@ -668,9 +688,9 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoM3',
   stats: {
     Position: 'Midfielder',
-    Appearances: 28,
+    Appearances: 36,
     Goals: 6,
-    Assists: 3,
+    Assists: 4,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
@@ -712,7 +732,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 4,
+    Appearances: 8,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -732,7 +752,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 2,
+    Appearances: 6,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -772,7 +792,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 13,
+    Appearances: 20,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -832,7 +852,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 11,
+    Appearances: 16,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -872,15 +892,15 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 7,
-    Goals: 1,
-    Assists: 0,
+    Appearances: 14,
+    Goals: 2,
+    Assists: 1,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
     'Yellow Cards': 0,
     'Red Cards': 0,
-    MOTM: 0
+    MOTM: 1
   }
 });
 playersData.push({
@@ -912,13 +932,13 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 21,
+    Appearances: 29,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
-    'Yellow Cards': 0,
+    'Yellow Cards': 1,
     'Red Cards': 0,
     MOTM: 0
   }
@@ -954,13 +974,13 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 18,
+    Appearances: 23,
     Goals: 0,
     Assists: 2,
     Interceptions: 0,
     Blocked: 0,
     'Successful Tackle': 0,
-    'Yellow Cards': 0,
+    'Yellow Cards': 1,
     'Red Cards': 0,
     MOTM: 1
   }
@@ -1038,7 +1058,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD3',
   stats: {
     Position: 'Defender',
-    Appearances: 22,
+    Appearances: 38,
     Goals: 0,
     Assists: 1,
     Interceptions: 0,
@@ -1122,7 +1142,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD3',
   stats: {
     Position: 'Defender',
-    Appearances: 1,
+    Appearances: 2,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -1164,7 +1184,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD3',
   stats: {
     Position: 'Defender',
-    Appearances: 7,
+    Appearances: 14,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -1185,7 +1205,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD3',
   stats: {
     Position: 'Defender',
-    Appearances: 26,
+    Appearances: 31,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -1206,7 +1226,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD3',
   stats: {
     Position: 'Defender',
-    Appearances: 13,
+    Appearances: 18,
     Goals: 0,
     Assists: 2,
     Interceptions: 0,
@@ -1226,8 +1246,48 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoD1',
   stats: {
     Position: 'Defender',
-    Appearances: 2,
+    Appearances: 4,
     Goals: 0,
+    Assists: 0,
+    Interceptions: 0,
+    Blocked: 0,
+    'Successful Tackle': 0,
+    'Yellow Cards': 0,
+    'Red Cards': 0,
+    MOTM: 0
+  }
+});
+playersData.push({
+  season: 'career',
+  category: 'defenders',
+  name: 'SHAHRIAR',
+  number: 4,
+  photo: 'images/SHAHRIAR.jpg',
+  video: 'https://www.youtube.com/embed/videoD1',
+  stats: {
+    Position: 'Defender',
+    Appearances: 6,
+    Goals: 0,
+    Assists: 0,
+    Interceptions: 0,
+    Blocked: 0,
+    'Successful Tackle': 0,
+    'Yellow Cards': 0,
+    'Red Cards': 0,
+    MOTM: 0
+  }
+});
+playersData.push({
+  season: 'career',
+  category: 'defenders',
+  name: 'JOY K',
+  number: 5,
+  photo: 'images/JOY K.jpg',
+  video: 'https://www.youtube.com/embed/videoD1',
+  stats: {
+    Position: 'Defender',
+    Appearances: 7,
+    Goals: 1,
     Assists: 0,
     Interceptions: 0,
     Blocked: 0,
@@ -1250,7 +1310,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoG1',
   stats: {
     Position: 'Goalkeeper',
-    Appearances: 20,
+    Appearances: 23,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -1273,7 +1333,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoG2',
   stats: {
     Position: 'Goalkeeper',
-    Appearances: 5,
+    Appearances: 11,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
@@ -1283,7 +1343,7 @@ playersData.push({
     'Red Cards': 0,
     'Penalty Saves': 0,
     'Clean Sheets': 0,
-    MOTM: 0
+    MOTM: 1
   }
 });
 
@@ -1319,7 +1379,7 @@ playersData.push({
   video: 'https://www.youtube.com/embed/videoG3',
   stats: {
     Position: 'Goalkeeper',
-    Appearances: 5,
+    Appearances: 6,
     Goals: 0,
     Assists: 0,
     Interceptions: 0,
