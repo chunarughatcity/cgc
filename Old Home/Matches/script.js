@@ -446,6 +446,18 @@ const season2 = [
     {
     number: 38,
     image: "images/match.jpg",
+    date: "11-08-2025",
+    opponent: "Pachargaw Young Star Club",
+    result: "draw",
+    score: "3-3",
+    goals: "Sabbir'9 Rumel'62'71",
+    assists: "Jakariya'71",
+    motm: "Foysal",
+    description: "Good Game!"
+    },
+    {
+    number: 39,
+    image: "images/match.jpg",
     date: "16-08-2025",
     opponent: "Chandopur Patakuri XI",
     result: "draw",
@@ -456,7 +468,7 @@ const season2 = [
     description: "Good Game!"
     },
     {
-    number: 39,
+    number: 40,
     image: "images/match.jpg",
     date: "10-09-2025",
     opponent: "CGC ARG vs CGC BRA",
@@ -468,7 +480,7 @@ const season2 = [
     description: "Good Game!"
     },
     {
-    number: 40,
+    number: 41,
     image: "images/match.jpg",
     date: "12-09-2025",
     opponent: "Dhormoghor FC",
@@ -480,7 +492,7 @@ const season2 = [
     description: "Good Game!"
     },
     {
-    number: 41,
+    number: 42,
     image: "images/match.jpg",
     date: "03-10-2025",
     opponent: "Ayton Pubali Jubo Shonggo",
@@ -492,7 +504,7 @@ const season2 = [
     description: "Good Game!"
     },
     {
-    number: 42,
+    number: 43,
     image: "images/match.jpg",
     date: "10-10-2025",
     opponent: "Dokkhin Norpoti FC",
@@ -504,7 +516,7 @@ const season2 = [
     description: "Good Game!"
     },
     {
-    number: 43,
+    number: 44 ,
     image: "images/match.jpg",
     date: "17-10-2025",
     opponent: "Bhai Brothers XI",
@@ -516,7 +528,7 @@ const season2 = [
     description: "Good Game!"
     },
     {
-    number: 44,
+    number: 45,
     image: "images/match.jpg",
     date: "24-10-2025",
     opponent: "Jinggalala FC",
@@ -528,7 +540,7 @@ const season2 = [
     description: "Good Game!"
     },
     {
-    number: 45,
+    number: 46,
     image: "images/match.jpg",
     date: "28-10-2025",
     opponent: "Bhai Brothers XI",
@@ -540,7 +552,7 @@ const season2 = [
     description: "Good Game!"
     },
     {
-    number: 46,
+    number: 47,
     image: "images/match.jpg",
     date: "19-11-2025",
     opponent: "HSC Batch 23 CGC",
@@ -552,7 +564,7 @@ const season2 = [
     description: "Good Game!"
     },
     {
-    number: 47,
+    number: 48,
     image: "images/match.jpg",
     date: "28-11-2025",
     opponent: "Inatabad Agragami FT",
@@ -647,4 +659,3 @@ function closeLightbox() {
 window.onload = () => {
   filterMatches();
 };
-
