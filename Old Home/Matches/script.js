@@ -1,7 +1,7 @@
 const season2 = [
   {
     number: 1,
-    image: "SABBIR.jpg",
+    image: ".jpg",
     date: "01-12-2024",
     opponent: "Dudhpatil Sporting Club",
     result: "won",
@@ -382,7 +382,187 @@ const season2 = [
     assists: "",
     motm: "",
     description: "Hard Match"
-    }
+    },
+    {
+    number: 33,
+    image: "images/match.jpg",
+    date: "25-07-2025",
+    opponent: "Sudikhola Football XI",
+    result: "won",
+    score: "1-0",
+    goals: "Nasir'52",
+    assists: "",
+    motm: "JAKARIYA",
+    description: "Good Game!"
+    },
+    {
+    number: 34,
+    image: "images/match.jpg",
+    date: "29-07-2025",
+    opponent: "Chandopur Patakuri XI",
+    result: "draw",
+    score: "3-3",
+    goals: "Rajon'6 Sabbir'11 Nasim'46",
+    assists: "Jakariya'11 Sabbir'46",
+    motm: "RAJON",
+    description: "Good Game!"
+    },
+    {
+    number: 35,
+    image: "images/match.jpg",
+    date: "31-07-2025",
+    opponent: "Balla Boys FC",
+    result: "won",
+    score: "7-0",
+    goals: "Own'8 Sabbir'30 Pen'34'46'60 Nasim'49 Emon'52",
+    assists: "Nasim'34 Raju'46'49'60",
+    motm: "NASIM",
+    description: "Good Game!"
+    },
+    {
+    number: 36,
+    image: "images/match.jpg",
+    date: "03-08-2025",
+    opponent: "Bosontopur SBSC",
+    result: "draw",
+    score: "0-0",
+    goals: "",
+    assists: "",
+    motm: "",
+    description: "Good Game!"
+    },
+    {
+    number: 37,
+    image: "images/match.jpg",
+    date: "06-08-2025",
+    opponent: "Gugawra XI",
+    result: "lost",
+    score: "5-6",
+    goals: "Rumel'19 Rayel'36 Arif'52'62 Rafi'63",
+    assists: "Sabbir'19'52' Rayel'61",
+    motm: "",
+    description: "Good Game!"
+    },
+    {
+    number: 38,
+    image: "images/match.jpg",
+    date: "16-08-2025",
+    opponent: "Chandopur Patakuri XI",
+    result: "draw",
+    score: "1-1",
+    goals: "Rasel'22 Pen",
+    assists: "",
+    motm: "",
+    description: "Good Game!"
+    },
+    {
+    number: 39,
+    image: "images/match.jpg",
+    date: "10-09-2025",
+    opponent: "CGC ARG vs CGC BRA",
+    result: "won",
+    score: "4-1",
+    goals: "ARG- Sabbir'5'25 Foysal'11 Najim'49| BRA- Joy'58 pen",
+    assists: "ARG- Nasir'5 Sabbir'11 Rajon'49",
+    motm: "SABBIR",
+    description: "Good Game!"
+    },
+    {
+    number: 40,
+    image: "images/match.jpg",
+    date: "12-09-2025",
+    opponent: "Dhormoghor FC",
+    result: "won",
+    score: "2-0",
+    goals: "Rajon'16 Jakaria'48",
+    assists: "Ashik'16 Rasel'48",
+    motm: "ROKI",
+    description: "Good Game!"
+    },
+    {
+    number: 41,
+    image: "images/match.jpg",
+    date: "03-10-2025",
+    opponent: "Ayton Pubali Jubo Shonggo",
+    result: "draw",
+    score: "1-1",
+    goals: "Ashik'22 Pen",
+    assists: "",
+    motm: "Ashik",
+    description: "Good Game!"
+    },
+    {
+    number: 42,
+    image: "images/match.jpg",
+    date: "10-10-2025",
+    opponent: "Dokkhin Norpoti FC",
+    result: "won",
+    score: "4-3",
+    goals: "Sabbir'13'56 Pen Rajon'29 Affan'33",
+    assists: "Helal'29 Jakaria'33",
+    motm: "SABBIR",
+    description: "Good Game!"
+    },
+    {
+    number: 43,
+    image: "images/match.jpg",
+    date: "17-10-2025",
+    opponent: "Bhai Brothers XI",
+    result: "won",
+    score: "0-0 | Penalty-3-2",
+    goals: "Sabbir' Jakaria' Foysal'",
+    assists: "",
+    motm: "FOYSAL",
+    description: "Good Game!"
+    },
+    {
+    number: 44,
+    image: "images/match.jpg",
+    date: "24-10-2025",
+    opponent: "Jinggalala FC",
+    result: "draw",
+    score: "1-1",
+    goals: "Sabbir'47",
+    assists: "Rasel'47",
+    motm: "SABBIR",
+    description: "Good Game!"
+    },
+    {
+    number: 45,
+    image: "images/match.jpg",
+    date: "28-10-2025",
+    opponent: "Bhai Brothers XI",
+    result: "lost",
+    score: "2-3",
+    goals: "Sabbir'26 Jakariya'35",
+    assists: "Sabbir'35",
+    motm: "",
+    description: "Good Game!"
+    },
+    {
+    number: 46,
+    image: "images/match.jpg",
+    date: "19-11-2025",
+    opponent: "HSC Batch 23 CGC",
+    result: "draw",
+    score: "3-3",
+    goals: "Antor'6 Sabbir'18'42",
+    assists: "Opi'18'42",
+    motm: "OPI",
+    description: "Good Game!"
+    },
+    {
+    number: 47,
+    image: "images/match.jpg",
+    date: "28-11-2025",
+    opponent: "Inatabad Agragami FT",
+    result: "lost",
+    score: "0-4",
+    goals: "",
+    assists: "",
+    motm: "",
+    description: "Good Game!"
+    },
   // আরও ম্যাচ অ্যাড করতে চাইলে এখানে একই ফরম্যাটে বসাও
 ];
 
@@ -467,3 +647,4 @@ function closeLightbox() {
 window.onload = () => {
   filterMatches();
 };
+
