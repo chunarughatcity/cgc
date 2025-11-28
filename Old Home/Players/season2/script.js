@@ -629,7 +629,7 @@ const players = [
     stats: {
       Position: "Defender",
       Appearances: 14,
-      Goals: 0,
+      Goals: 1,
       Assists: 2,
       Interceptions: 0,
       Blocked: 0,
@@ -1066,3 +1066,4 @@ function closeOverlay() {
 
 // Initialize
 renderPlayers();
+
