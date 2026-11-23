@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080d1b">
+    <meta name="description" content="Meet the members of Chunarughat City.">
+    <title>Members | Chunarughat City</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-container">
+    <!-- Hamburger Menu Icon -->
+    <button class="hamburger-menu" type="button" onclick="toggleMenu()" aria-label="Open navigation menu" aria-controls="quickAccessMenu" aria-expanded="false">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </button>
+
+    <!-- Quick Access Menu: destinations intentionally unchanged -->
+    <nav class="quick-access-menu" id="quickAccessMenu" aria-label="Quick access">
+        <a href="../Old Home.html" class="menu-item">Home</a>
+        <a href="../Players/index.html" class="menu-item">Players</a>
+        <a href="../Matches/index.html" class="menu-item">Matches</a>
+        <a href="../Photos/index.html" class="menu-item">Photos</a>
+        <a href="../Videos/index.html" class="menu-item">Videos</a>
+        <a href="../eSports/index.html" class="menu-item">eSports</a>
+    </nav>
+
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="hero-header">
+        <div class="hero-content">
+            <p class="eyebrow"><span class="eyebrow-line"></span> CHUNARUGAT CITY <span class="eyebrow-line"> </span> </p>
+            <h1>Our <span>Members</span></h1>
+            <p class="hero-description">We are the best, Because of we are together.</p>
+            <div class="hero-stat" aria-label="Member directory">
+                <span class="stat-icon" aria-hidden="true">✦</span>
+                <span class="stat-number" id="totalMembers">151</span>
+                <span class="stat-label"> Official Club Members</span>
+                <span class="stat-divider"></span>
+            </div>
+        </div>
+        <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
+    </header>
+
+    <main class="main-content">
+        <section class="directory-section" aria-labelledby="directoryTitle">
+            <div class="section-heading">
+                <div>
+                    <h2 id="directoryTitle">Member Directory<span>.</span></h2>
+                </div>
+                <div class="directory-count" aria-live="polite">
+                    <span class="count-indicator"></span>
+                    <span id="resultCount">Loading members...</span>
+                </div>
+            </div>
+
+            <div class="search-wrap">
+                <span class="search-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.8" />
+                        <path d="m16 16 4.2 4.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                    </svg>
+                </span>
+                <input type="search" id="searchMember" placeholder="Search by member name or number..." oninput="searchMembers()" autocomplete="off" aria-label="Search members by name or number">
+                <span class="search-hint">SEARCH</span>
+            </div>
+
+            <div class="members-container" id="clubMembers" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <span class="footer-mark">CGC<span>.</span></span>
+        <span>CHUNARUGAT CITY</span>
+        <span class="footer-divider"></span>
+        <span>MEMBERS DIRECTORY</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
