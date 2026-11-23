@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Chunarughat City Football Club match centre — season archives, results and match statistics." />
+  <title>Home | CGC Match Centre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+
+  <button class="hamburger-menu" id="menuToggle" type="button" aria-label="Open club navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="quick-access-menu" id="quickAccessMenu" aria-label="Club navigation">
+    <a href="index.html">Match Centre</a><a href="../Old Home.html">Club Home</a><a href="../Members/index.html">Members</a><a href="../Players/index.html">Players</a><a href="../Photos/index.html">Photos</a><a href="../Videos/index.html">Videos</a><a href="../eSports/index.html">eSports</a>
+  </nav>
+  <main class="page-shell">
+    <header class="hero">
+      <div class="hero-kicker"><span class="live-dot"></span> CHUNARUGHAT CITY </div>
+      <h1>Match <span>Centre</span></h1>
+      <div class="hero-line"></div>
+    </header>
+
+    <section class="season-section" aria-label="Choose season">
+      <div class="section-heading"><div><p class="eyebrow"> </p><h2>Explore all seasons</h2></div><span class="archive-note">  </span></div>
+      <nav class="season-switcher" aria-label="Season pages">
+        <a class="season-tab season-one " href="Season-1/index.html" ><span class="season-tab-top">ARCHIVE 01</span><strong>Season One</strong><small>2023 — 2024 · 18 matches</small></a>
+        <a class="season-tab season-two " href="Season-2/index.html" ><span class="season-tab-top">ARCHIVE 02</span><strong>Season Two</strong><small> 2024 — 2025 · 48 matches</small></a>
+        <a class="season-tab season-three " href="Season-3/index.html" ><span class="season-tab-top">LATEST SEASON</span><strong>Season Three</strong><small>View the latest season</small></a>
+      </nav>
+    </section>
+
+    <section class="latest-panel" aria-label="Latest season">
+      <div>
+        <span class="latest-label"><span class="live-dot"></span> LATEST SEASON</span>
+        <h2>Season <span>Three</span></h2>
+        <p>Open Season to view its match records, scores, goals, assists and match details.</p>
+      </div>
+      <div class="latest-side">
+        <div class="latest-count" id="latestSeasonCount">0</div>
+        <div class="latest-caption">MATCHES RECORDED</div>
+        <div class="latest-match" id="latestSeasonMatch"><strong>Ready for kickoff</strong>Add the first match in Season-3/script.js.</div>
+        <a class="latest-open" href="Season-3/index.html">Open Season Three <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+    <section class="stats-grid home-summary" aria-label="Season archive summary">
+      <article class="stat-card stat-total"><span class="stat-label">SEASON ONE</span><strong>18</strong><span class="stat-foot">Original records</span></article>
+      <article class="stat-card stat-won"><span class="stat-label">SEASON TWO</span><strong>48</strong><span class="stat-foot">Original records</span></article>
+      <article class="stat-card stat-rate"><span class="stat-label">SEASON THREE</span><strong id="latestSeasonTotalSmall">0</strong><span class="stat-foot">Latest season</span></article>
+    </section>
+
+    <footer class="page-footer"><span>CGC · MATCH CENTRE</span><span>We are the best, Because of we are together.</span></footer>
+  </main>
+  <script>
+    (function(){const toggle=document.getElementById('menuToggle');const menu=document.getElementById('quickAccessMenu');if(!toggle||!menu)return;toggle.addEventListener('click',()=>{const open=menu.classList.toggle('active');toggle.classList.toggle('active',open);toggle.setAttribute('aria-expanded',String(open));});document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.classList.remove('active');toggle.classList.remove('active');toggle.setAttribute('aria-expanded','false');}});})();
+  </script>
+  <script src="Season-3/script.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>
