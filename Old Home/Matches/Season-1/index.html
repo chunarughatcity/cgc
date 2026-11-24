@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Chunarughat City Football Club match centre — season archives, results and match statistics." />
+  <title>Season One | CGC Match Centre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+
+  <button class="hamburger-menu" id="menuToggle" type="button" aria-label="Open club navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="quick-access-menu" id="quickAccessMenu" aria-label="Club navigation">
+    <a href="../index.html">Match Centre</a><a href="../../Old Home.html">Club Home</a><a href="../../Members/index.html">Members</a><a href="../../Players/index.html">Players</a><a href="../../Photos/index.html">Photos</a><a href="../../Videos/index.html">Videos</a><a href="../../eSports/index.html">eSports</a>
+  </nav>
+  <main class="page-shell">
+    <header class="hero">
+      <div class="hero-kicker"><span class="live-dot"></span> CHUNARUGHAT CITY </div>
+      <h1>Match <span>Centre</span></h1>
+      <div class="hero-line"></div>
+    </header>
+
+    <section class="season-section" aria-label="Choose season">
+      <div class="section-heading"><div><p class="eyebrow"></p><h2>Explore all seasons</h2></div><span class="archive-note"></span></div>
+      <nav class="season-switcher" aria-label="Season pages">
+        <a class="season-tab season-one active" href="../Season-1/index.html" aria-current="page"><span class="season-tab-top">ARCHIVE 01</span><strong>Season One</strong><small>2024 · 18 matches</small></a>
+        <a class="season-tab season-two " href="../Season-2/index.html" ><span class="season-tab-top">ARCHIVE 02</span><strong>Season Two</strong><small>2024 — 2025 · 48 matches</small></a>
+        <a class="season-tab season-three " href="../Season-3/index.html" ><span class="season-tab-top">LATEST SEASON</span><strong>Season Three</strong><small>Open latest season</small></a>
+      </nav>
+    </section>
+
+    <a class="back-home" href="../index.html">← Back to Match Centre Home</a>
+    <section class="season-heading-row">
+      <div><p class="eyebrow"></p><h2>Season One <span class="title-accent">/ Match records</span></h2><p class="season-page-intro"></p></div>
+    </section>
+    <section class="stats-grid" aria-label="Season statistics">
+      <article class="stat-card stat-total"><span class="stat-label">TOTAL MATCHES</span><strong id="statTotal">0</strong><span class="stat-foot">Recorded this season</span></article>
+      <article class="stat-card stat-won"><span class="stat-label">WON</span><strong id="statWon">0</strong><span class="stat-foot">Victory</span></article>
+      <article class="stat-card stat-draw"><span class="stat-label">DRAWN</span><strong id="statDraw">0</strong><span class="stat-foot">Shared points</span></article>
+      <article class="stat-card stat-lost"><span class="stat-label">LOST</span><strong id="statLost">0</strong><span class="stat-foot">Keep pushing</span></article>
+      <article class="stat-card stat-rate"><span class="stat-label">WIN RATE</span><strong id="statRate">0%</strong><span class="stat-foot">Wins / total</span></article>
+    </section>
+    <section class="toolbar" aria-label="Search and filter matches">
+      <div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 4 4"></path></svg><input type="search" id="searchInput" placeholder="Search opponent..." autocomplete="off" /></div>
+      <label class="filter-wrap"><span>RESULT</span><select id="resultFilter"><option value="all">All results</option><option value="won">Won</option><option value="draw">Draw</option><option value="lost">Lost</option></select></label>
+      <span class="result-count" id="resultCount">0 matches</span>
+    </section>
+    <section id="matchList" class="match-list" aria-live="polite"></section>
+
+    <footer class="page-footer"><span>CGC · MATCH CENTRE</span><span>We are the best, Because of we are together.</span></footer>
+  </main>
+  <script>
+    (function(){const toggle=document.getElementById('menuToggle');const menu=document.getElementById('quickAccessMenu');if(!toggle||!menu)return;toggle.addEventListener('click',()=>{const open=menu.classList.toggle('active');toggle.classList.toggle('active',open);toggle.setAttribute('aria-expanded',String(open));});document.addEventListener('keydown',e=>{if(e.key==='Escape'){menu.classList.remove('active');toggle.classList.remove('active');toggle.setAttribute('aria-expanded','false');}});})();
+  </script>
+  <div class="lightbox" id="lightbox" hidden><button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close image">×</button><img id="lightboxImage" src="" alt="Match photo preview" /></div>
+  <script src="script.js"></script>
+</body>
+</html>
