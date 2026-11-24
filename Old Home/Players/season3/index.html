@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080d1d" />
+  <meta name="description" content="Chunarughat City Football Club — player roster and season statistics." />
+  <title>Chunarughat City | Player Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="ambient ambient-three" aria-hidden="true"></div>
+
+  <main class="container">
+    <header class="topbar">
+      <a class="club-mark" href="#top" aria-label="Chunarughat City Player Hub home">
+      </a>
+      <div class="topbar-status"><span class="status-dot"></span>  <span class="status-divider"></span><span id="rosterCount">50 PLAYERS</span></div>
+    </header>
+    <section class="roster-section" aria-label="Player roster">
+      <div class="section-heading">
+          <h2>Meet the <span>S3 Players</span></h2>
+        </div>
+        <div class="result-count" id="resultCount">50 PLAYERS</div>
+      </div>
+
+      <nav id="categorySelector" class="category-selector" aria-label="Filter players by position">
+        <button class="category-btn" type="button" data-category="all" aria-pressed="true"><span>All Players</span><span class="category-count">50</span></button>
+        <button class="category-btn" type="button" data-category="forwards" aria-pressed="false"><span>Forwards</span><span class="category-count">15</span></button>
+        <button class="category-btn" type="button" data-category="midfielders" aria-pressed="false"><span>Midfielders</span><span class="category-count">11</span></button>
+        <button class="category-btn" type="button" data-category="defenders" aria-pressed="false"><span>Defenders</span><span class="category-count">21</span></button>
+        <button class="category-btn" type="button" data-category="goalkeepers" aria-pressed="false"><span>Goalkeepers</span><span class="category-count">3</span></button>
+      </nav>
+
+      <div class="search-row">
+        <label class="search-box" for="searchInput">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.2 4.2"></path></svg>
+          <input type="search" id="searchInput" placeholder="Search players by name..." autocomplete="off" aria-label="Search players by name" />
+          <kbd>Ctrl / ⌘ K</kbd>
+        </label>
+        <button id="clearSearch" class="clear-search" type="button" title="Clear search and show all players">Reset filter</button>
+      </div>
+
+      <div class="players-container" id="playersContainer" aria-live="polite" aria-busy="false"></div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-brand"><span class="footer-mark">CGC</span><span>CHUNARUGHAT CITY</span></div>
+      <p>We are the best, Because of we are together.</p>
+      <span class="footer-season">SEASON 03</span>
+    </footer>
+  </main>
+
+  <div id="overlay" class="overlay" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="videoTitle">
+    <div class="full-view-card">
+      <button id="closeOverlay" class="close-btn" type="button" aria-label="Close video">&times;</button>
+      <div id="videoContainer"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
